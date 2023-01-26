@@ -2,6 +2,7 @@
   "debug.inlineValues": "on",
   "diffEditor.codeLens": true,
   "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
     "source.organizeImports": true
   },
   "editor.codeLens": true,

@@ -1,4 +1,11 @@
 {
   "htmlWhitespaceSensitivity": "ignore",
-  "singleAttributePerLine": true
+  "singleAttributePerLine": true,
+  "attributeGroups": [
+    "$ANGULAR_STRUCTURAL_DIRECTIVE",
+    "$ANGULAR_INPUT",
+    "$ANGULAR_OUTPUT",
+    "$ANGULAR_TWO_WAY_BINDING"
+  ],
+  "attributeSort": "ASC"
 }
