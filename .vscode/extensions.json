@@ -4,6 +4,7 @@
     "angular.ng-template",
     "richie5um2.vscode-sort-json",
     "esbenp.prettier-vscode",
-    "davidanson.vscode-markdownlint"
+    "davidanson.vscode-markdownlint",
+    "streetsidesoftware.code-spell-checker"
   ]
 }
