@@ -1,24 +1,7 @@
 {
-  "name": "my-angular-bootstrap",
-  "description": "my-angular-bootstrap",
-  "private": true,
   "author": "fh94mint",
-  "version": "0.0.0",
-  "homepage": "https://github.com/fh94mint/my-angular-bootstrap#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fh94mint/my-angular-bootstrap.git"
-  },
   "bugs": {
     "url": "https://github.com/fh94mint/my-angular-bootstrap/issues"
-  },
-  "license": "MIT",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
   },
   "dependencies": {
     "@angular/animations": "^15.1.0",
@@ -33,6 +16,7 @@
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
   },
+  "description": "my-angular-bootstrap",
   "devDependencies": {
     "@angular-devkit/build-angular": "^15.1.3",
     "@angular/cli": "~15.1.3",
@@ -44,6 +28,24 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
+    "prettier": "2.8.3",
     "typescript": "~4.9.4"
-  }
+  },
+  "homepage": "https://github.com/fh94mint/my-angular-bootstrap#readme",
+  "license": "MIT",
+  "name": "my-angular-bootstrap",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fh94mint/my-angular-bootstrap.git"
+  },
+  "scripts": {
+    "build": "ng build",
+    "format": "prettier --write .",
+    "ng": "ng",
+    "start": "ng serve",
+    "test": "ng test",
+    "watch": "ng build --watch --configuration development"
+  },
+  "version": "0.0.0"
 }
