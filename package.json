@@ -1,6 +1,18 @@
 {
   "name": "my-angular-bootstrap",
+  "description": "my-angular-bootstrap",
+  "private": true,
+  "author": "fh94mint",
   "version": "0.0.0",
+  "homepage": "https://github.com/fh94mint/my-angular-bootstrap#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fh94mint/my-angular-bootstrap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fh94mint/my-angular-bootstrap/issues"
+  },
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +20,6 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^15.1.0",
     "@angular/common": "^15.1.0",
