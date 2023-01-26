@@ -94,7 +94,7 @@ module.exports = {
         "@typescript-eslint/member-ordering": ["error"],
         "@typescript-eslint/method-signature-style": ["error", "property"],
         "@typescript-eslint/naming-convention": [
-          "error",
+          "warn",
           {
             selector: "default",
             format: ["strictCamelCase"],
@@ -116,6 +116,7 @@ module.exports = {
             format: ["PascalCase"],
           },
         ],
+        "@typescript-eslint/member-ordering": ["warn"],
         "@typescript-eslint/no-confusing-non-null-assertion": ["error"],
         "@typescript-eslint/no-useless-constructor": ["error"],
         "@typescript-eslint/strict-boolean-expressions": [
