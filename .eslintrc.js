@@ -14,6 +14,7 @@ module.exports = {
         "plugin:@typescript-eslint/strict",
         "plugin:@angular-eslint/recommended",
         "plugin:@angular-eslint/template/process-inline-templates",
+        "plugin:@ngrx/strict-requiring-type-checking",
         "prettier",
       ],
       plugins: ["unicorn"],
